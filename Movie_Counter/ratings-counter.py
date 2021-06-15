@@ -7,7 +7,14 @@ sc = SparkContext(conf=conf)
 lines = sc.textFile(
     "/media/rohit/My Files/Study/Data Engineering Projects/Movie_Counter/data/ratings.csv"
 )
-ratings = lines.map(lambda x: x.split()[2])
+
+
+def parseline(lines):
+    fields = lines.split(",")
+    return fields[2]
+
+
+ratings = lines.map(parseline)
 result = ratings.countByValue()
 
 sortedResults = collections.OrderedDict(sorted(result.items()))
