@@ -1,5 +1,4 @@
 from pyspark import SparkContext, SparkConf
-from pyspark.serializers import FlattenedValuesSerializer
 
 conf = SparkConf().setMaster("local").setAppName("CountTotal")
 sc = SparkContext(conf=conf)
