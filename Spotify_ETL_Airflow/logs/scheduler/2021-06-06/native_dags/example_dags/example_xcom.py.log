@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2021-06-06 06:31:56,749] {scheduler_job.py:182} INFO - Started process (PID=2372) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
 [2021-06-06 06:31:56,750] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
 [2021-06-06 06:31:56,751] {logging_mixin.py:104} INFO - [2021-06-06 06:31:56,751] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
@@ -187,3 +188,194 @@
 [2021-06-06 06:46:00,030] {logging_mixin.py:104} INFO - [2021-06-06 06:46:00,029] {dag.py:1832} INFO - Sync 1 DAGs
 [2021-06-06 06:46:00,057] {logging_mixin.py:104} INFO - [2021-06-06 06:46:00,057] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
 [2021-06-06 06:46:00,092] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.152 seconds
+=======
+[2021-06-06 06:31:56,749] {scheduler_job.py:182} INFO - Started process (PID=2372) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:31:56,750] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:31:56,751] {logging_mixin.py:104} INFO - [2021-06-06 06:31:56,751] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:31:56,763] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:31:56,776] {logging_mixin.py:104} INFO - [2021-06-06 06:31:56,776] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:31:56,786] {logging_mixin.py:104} INFO - [2021-06-06 06:31:56,786] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:31:56,807] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2021-06-06 06:32:32,206] {scheduler_job.py:182} INFO - Started process (PID=2431) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:32:32,207] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:32:32,208] {logging_mixin.py:104} INFO - [2021-06-06 06:32:32,208] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:32:32,229] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:32:32,248] {logging_mixin.py:104} INFO - [2021-06-06 06:32:32,248] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:32:32,259] {logging_mixin.py:104} INFO - [2021-06-06 06:32:32,259] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:32:32,288] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.086 seconds
+[2021-06-06 06:33:08,752] {scheduler_job.py:182} INFO - Started process (PID=2516) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:08,754] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:33:08,755] {logging_mixin.py:104} INFO - [2021-06-06 06:33:08,754] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:08,770] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:08,784] {logging_mixin.py:104} INFO - [2021-06-06 06:33:08,784] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:33:08,795] {logging_mixin.py:104} INFO - [2021-06-06 06:33:08,794] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:33:08,819] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2021-06-06 06:33:39,106] {scheduler_job.py:182} INFO - Started process (PID=2568) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:39,108] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:33:39,109] {logging_mixin.py:104} INFO - [2021-06-06 06:33:39,108] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:39,124] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:33:39,137] {logging_mixin.py:104} INFO - [2021-06-06 06:33:39,137] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:33:39,147] {logging_mixin.py:104} INFO - [2021-06-06 06:33:39,147] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:33:39,167] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2021-06-06 06:34:16,462] {scheduler_job.py:182} INFO - Started process (PID=2630) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:16,464] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:34:16,465] {logging_mixin.py:104} INFO - [2021-06-06 06:34:16,465] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:16,481] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:16,494] {logging_mixin.py:104} INFO - [2021-06-06 06:34:16,494] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:34:16,508] {logging_mixin.py:104} INFO - [2021-06-06 06:34:16,508] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:34:16,534] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2021-06-06 06:34:48,666] {scheduler_job.py:182} INFO - Started process (PID=2689) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:48,669] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:34:48,670] {logging_mixin.py:104} INFO - [2021-06-06 06:34:48,670] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:48,684] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:34:48,698] {logging_mixin.py:104} INFO - [2021-06-06 06:34:48,698] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:34:48,708] {logging_mixin.py:104} INFO - [2021-06-06 06:34:48,708] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:34:48,729] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2021-06-06 06:35:21,003] {scheduler_job.py:182} INFO - Started process (PID=2749) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:21,005] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:35:21,006] {logging_mixin.py:104} INFO - [2021-06-06 06:35:21,006] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:21,018] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:21,031] {logging_mixin.py:104} INFO - [2021-06-06 06:35:21,031] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:35:21,041] {logging_mixin.py:104} INFO - [2021-06-06 06:35:21,040] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:35:21,060] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2021-06-06 06:35:54,725] {scheduler_job.py:182} INFO - Started process (PID=2810) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:54,727] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:35:54,728] {logging_mixin.py:104} INFO - [2021-06-06 06:35:54,727] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:54,740] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:35:54,751] {logging_mixin.py:104} INFO - [2021-06-06 06:35:54,751] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:35:54,761] {logging_mixin.py:104} INFO - [2021-06-06 06:35:54,761] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:35:54,780] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2021-06-06 06:36:25,184] {scheduler_job.py:182} INFO - Started process (PID=2866) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:25,185] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:36:25,186] {logging_mixin.py:104} INFO - [2021-06-06 06:36:25,185] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:25,198] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:25,213] {logging_mixin.py:104} INFO - [2021-06-06 06:36:25,213] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:36:25,224] {logging_mixin.py:104} INFO - [2021-06-06 06:36:25,224] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:36:25,243] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2021-06-06 06:36:56,416] {scheduler_job.py:182} INFO - Started process (PID=2922) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:56,418] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:36:56,419] {logging_mixin.py:104} INFO - [2021-06-06 06:36:56,419] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:56,433] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:36:56,444] {logging_mixin.py:104} INFO - [2021-06-06 06:36:56,444] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:36:56,454] {logging_mixin.py:104} INFO - [2021-06-06 06:36:56,454] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:36:56,473] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2021-06-06 06:37:26,739] {scheduler_job.py:182} INFO - Started process (PID=2977) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:26,741] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:37:26,745] {logging_mixin.py:104} INFO - [2021-06-06 06:37:26,744] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:26,758] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:26,777] {logging_mixin.py:104} INFO - [2021-06-06 06:37:26,776] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:37:26,790] {logging_mixin.py:104} INFO - [2021-06-06 06:37:26,790] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:37:26,823] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2021-06-06 06:37:59,282] {scheduler_job.py:182} INFO - Started process (PID=3035) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:59,284] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:37:59,285] {logging_mixin.py:104} INFO - [2021-06-06 06:37:59,285] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:59,298] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:37:59,312] {logging_mixin.py:104} INFO - [2021-06-06 06:37:59,311] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:37:59,322] {logging_mixin.py:104} INFO - [2021-06-06 06:37:59,322] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:37:59,343] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2021-06-06 06:38:29,690] {scheduler_job.py:182} INFO - Started process (PID=3088) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:38:29,692] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:38:29,693] {logging_mixin.py:104} INFO - [2021-06-06 06:38:29,692] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:38:29,706] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:38:29,719] {logging_mixin.py:104} INFO - [2021-06-06 06:38:29,719] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:38:29,729] {logging_mixin.py:104} INFO - [2021-06-06 06:38:29,729] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:38:29,747] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2021-06-06 06:39:01,096] {scheduler_job.py:182} INFO - Started process (PID=3141) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:01,097] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:39:01,098] {logging_mixin.py:104} INFO - [2021-06-06 06:39:01,098] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:01,110] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:01,122] {logging_mixin.py:104} INFO - [2021-06-06 06:39:01,122] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:39:01,132] {logging_mixin.py:104} INFO - [2021-06-06 06:39:01,132] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:39:01,151] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2021-06-06 06:39:34,080] {scheduler_job.py:182} INFO - Started process (PID=3199) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:34,082] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:39:34,084] {logging_mixin.py:104} INFO - [2021-06-06 06:39:34,083] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:34,097] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:39:34,109] {logging_mixin.py:104} INFO - [2021-06-06 06:39:34,109] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:39:34,119] {logging_mixin.py:104} INFO - [2021-06-06 06:39:34,119] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:39:34,138] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2021-06-06 06:40:08,711] {scheduler_job.py:182} INFO - Started process (PID=3256) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:08,716] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:40:08,717] {logging_mixin.py:104} INFO - [2021-06-06 06:40:08,717] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:08,729] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:08,743] {logging_mixin.py:104} INFO - [2021-06-06 06:40:08,743] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:40:08,760] {logging_mixin.py:104} INFO - [2021-06-06 06:40:08,760] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:40:08,795] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2021-06-06 06:40:42,565] {scheduler_job.py:182} INFO - Started process (PID=3312) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:42,568] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:40:42,570] {logging_mixin.py:104} INFO - [2021-06-06 06:40:42,569] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:42,583] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:40:42,595] {logging_mixin.py:104} INFO - [2021-06-06 06:40:42,595] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:40:42,606] {logging_mixin.py:104} INFO - [2021-06-06 06:40:42,606] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:40:42,632] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2021-06-06 06:41:15,125] {scheduler_job.py:182} INFO - Started process (PID=3371) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:15,127] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:41:15,128] {logging_mixin.py:104} INFO - [2021-06-06 06:41:15,128] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:15,141] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:15,156] {logging_mixin.py:104} INFO - [2021-06-06 06:41:15,156] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:41:15,166] {logging_mixin.py:104} INFO - [2021-06-06 06:41:15,166] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:41:15,199] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2021-06-06 06:41:45,362] {scheduler_job.py:182} INFO - Started process (PID=3425) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:45,364] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:41:45,366] {logging_mixin.py:104} INFO - [2021-06-06 06:41:45,365] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:45,381] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:41:45,394] {logging_mixin.py:104} INFO - [2021-06-06 06:41:45,394] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:41:45,405] {logging_mixin.py:104} INFO - [2021-06-06 06:41:45,405] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:41:45,425] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2021-06-06 06:42:17,578] {scheduler_job.py:182} INFO - Started process (PID=3482) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:17,580] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:42:17,581] {logging_mixin.py:104} INFO - [2021-06-06 06:42:17,581] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:17,593] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:17,606] {logging_mixin.py:104} INFO - [2021-06-06 06:42:17,606] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:42:17,616] {logging_mixin.py:104} INFO - [2021-06-06 06:42:17,616] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:42:17,637] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2021-06-06 06:42:49,258] {scheduler_job.py:182} INFO - Started process (PID=3538) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:49,260] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:42:49,261] {logging_mixin.py:104} INFO - [2021-06-06 06:42:49,261] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:49,274] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:42:49,286] {logging_mixin.py:104} INFO - [2021-06-06 06:42:49,286] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:42:49,297] {logging_mixin.py:104} INFO - [2021-06-06 06:42:49,296] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:42:49,321] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2021-06-06 06:43:22,261] {scheduler_job.py:182} INFO - Started process (PID=3598) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:22,263] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:43:22,264] {logging_mixin.py:104} INFO - [2021-06-06 06:43:22,264] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:22,279] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:22,292] {logging_mixin.py:104} INFO - [2021-06-06 06:43:22,292] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:43:22,303] {logging_mixin.py:104} INFO - [2021-06-06 06:43:22,303] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:43:22,323] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2021-06-06 06:43:53,498] {scheduler_job.py:182} INFO - Started process (PID=3654) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:53,500] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:43:53,502] {logging_mixin.py:104} INFO - [2021-06-06 06:43:53,502] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:53,516] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:43:53,529] {logging_mixin.py:104} INFO - [2021-06-06 06:43:53,528] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:43:53,539] {logging_mixin.py:104} INFO - [2021-06-06 06:43:53,539] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:43:53,559] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2021-06-06 06:44:24,620] {scheduler_job.py:182} INFO - Started process (PID=3707) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:24,622] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:44:24,623] {logging_mixin.py:104} INFO - [2021-06-06 06:44:24,623] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:24,654] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:24,678] {logging_mixin.py:104} INFO - [2021-06-06 06:44:24,678] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:44:24,700] {logging_mixin.py:104} INFO - [2021-06-06 06:44:24,700] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:44:24,737] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.122 seconds
+[2021-06-06 06:44:56,608] {scheduler_job.py:182} INFO - Started process (PID=3759) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:56,610] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:44:56,611] {logging_mixin.py:104} INFO - [2021-06-06 06:44:56,611] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:56,623] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:44:56,636] {logging_mixin.py:104} INFO - [2021-06-06 06:44:56,636] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:44:56,648] {logging_mixin.py:104} INFO - [2021-06-06 06:44:56,648] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:44:56,668] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2021-06-06 06:45:28,732] {scheduler_job.py:182} INFO - Started process (PID=3901) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:45:28,734] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:45:28,734] {logging_mixin.py:104} INFO - [2021-06-06 06:45:28,734] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:45:28,746] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:45:28,760] {logging_mixin.py:104} INFO - [2021-06-06 06:45:28,760] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:45:28,772] {logging_mixin.py:104} INFO - [2021-06-06 06:45:28,772] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:45:28,793] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.065 seconds
+[2021-06-06 06:45:59,946] {scheduler_job.py:182} INFO - Started process (PID=4113) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:45:59,948] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-06-06 06:45:59,950] {logging_mixin.py:104} INFO - [2021-06-06 06:45:59,949] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:45:59,995] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-06-06 06:46:00,030] {logging_mixin.py:104} INFO - [2021-06-06 06:46:00,029] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:46:00,057] {logging_mixin.py:104} INFO - [2021-06-06 06:46:00,057] {dag.py:2305} INFO - Setting next_dagrun for example_xcom to 2021-06-04 00:00:00+00:00
+[2021-06-06 06:46:00,092] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.152 seconds
+>>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
