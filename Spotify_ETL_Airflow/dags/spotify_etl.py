@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import datetime
 from datetime import datetime, timedelta
 from numpy import append
@@ -240,4 +240,4 @@ def run_spotify_etl():
 
     connection.close()
     print("Connection Closed")
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

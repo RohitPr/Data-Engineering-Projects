@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import re
 from pyspark import SparkConf, SparkContext
 
@@ -48,4 +47,4 @@ for result in results:
     word = result[1].encode('ascii', 'ignore')
     if (word):
         print(word.decode() + ":\t\t" + count)
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

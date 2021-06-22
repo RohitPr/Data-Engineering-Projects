@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from pyspark import SparkConf, SparkContext
 
 conf = SparkConf().setMaster("local").setAppName("FriendsByAge")
@@ -44,4 +44,4 @@ averagesByAge = totalsByAge.mapValues(lambda x: x[0] / x[1])
 results = averagesByAge.collect()
 for result in results:
     print(result)
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

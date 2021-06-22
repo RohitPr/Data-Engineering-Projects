@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as func
 
@@ -28,4 +28,4 @@ topMovieIDs = moviesDF.groupBy("movieId").count().orderBy(func.desc("count"))
 topMovieIDs.show(10)
 
 spark.stop()
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
@@ -256,4 +256,4 @@ AUTH_TYPE = AUTH_DB
 # APP_THEME = "superhero.css"
 # APP_THEME = "united.css"
 # APP_THEME = "yeti.css"
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as func
 import codecs
@@ -88,4 +88,4 @@ sortedMoviesWithNames = moviesWithNames.orderBy(func.desc("count"))
 sortedMoviesWithNames.show(10, False)
 
 spark.stop()
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

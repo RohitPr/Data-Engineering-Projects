@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 userID,name,age,friends
 0,Will,33,385
 1,Jean-Luc,26,2
@@ -500,7 +499,7 @@ userID,name,age,friends
 497,Lwaxana,34,423
 498,Jadzia,62,36
 499,Leeta,62,12
-=======
+Err:510,,,
 userID,name,age,friends
 0,Will,33,385
 1,Jean-Luc,26,2
@@ -1002,4 +1001,3 @@ userID,name,age,friends
 497,Lwaxana,34,423
 498,Jadzia,62,36
 499,Leeta,62,12
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130

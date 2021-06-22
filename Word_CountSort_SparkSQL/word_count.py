@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as func
 
@@ -46,4 +46,4 @@ wordCountsSorted = wordCounts.sort("count")
 
 # To Show all the results instead of default 20
 wordCountsSorted.show(wordCountsSorted.count())
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 from pyspark import SparkConf, SparkContext
 
@@ -244,4 +244,4 @@ for iteration in range(0, 10):
         break
 
     iterationRdd = mapped.reduceByKey(bfsReduce)
->>>>>>> a36d51d4f01a602def4b5ca237d9cd16ee6cc130
+
