@@ -1,0 +1,182 @@
+[2021-06-06 06:32:01,990] {scheduler_job.py:182} INFO - Started process (PID=2382) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:01,993] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:32:01,993] {logging_mixin.py:104} INFO - [2021-06-06 06:32:01,993] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:02,025] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:02,060] {logging_mixin.py:104} INFO - [2021-06-06 06:32:02,060] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:32:02,074] {logging_mixin.py:104} INFO - [2021-06-06 06:32:02,074] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:32:02,103] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2021-06-06 06:32:37,349] {scheduler_job.py:182} INFO - Started process (PID=2440) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:37,350] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:32:37,352] {logging_mixin.py:104} INFO - [2021-06-06 06:32:37,352] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:37,371] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:32:37,391] {logging_mixin.py:104} INFO - [2021-06-06 06:32:37,390] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:32:37,403] {logging_mixin.py:104} INFO - [2021-06-06 06:32:37,403] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:32:37,432] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2021-06-06 06:33:13,921] {scheduler_job.py:182} INFO - Started process (PID=2525) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:13,923] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:33:13,925] {logging_mixin.py:104} INFO - [2021-06-06 06:33:13,925] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:13,963] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:13,996] {logging_mixin.py:104} INFO - [2021-06-06 06:33:13,996] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:33:14,013] {logging_mixin.py:104} INFO - [2021-06-06 06:33:14,013] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:33:14,036] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2021-06-06 06:33:48,324] {scheduler_job.py:182} INFO - Started process (PID=2584) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:48,326] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:33:48,327] {logging_mixin.py:104} INFO - [2021-06-06 06:33:48,327] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:48,347] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:33:48,374] {logging_mixin.py:104} INFO - [2021-06-06 06:33:48,374] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:33:48,391] {logging_mixin.py:104} INFO - [2021-06-06 06:33:48,391] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:33:48,410] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.090 seconds
+[2021-06-06 06:34:25,181] {scheduler_job.py:182} INFO - Started process (PID=2645) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:25,187] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:34:25,188] {logging_mixin.py:104} INFO - [2021-06-06 06:34:25,188] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:25,206] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:25,224] {logging_mixin.py:104} INFO - [2021-06-06 06:34:25,224] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:34:25,234] {logging_mixin.py:104} INFO - [2021-06-06 06:34:25,234] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:34:25,270] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.094 seconds
+[2021-06-06 06:34:57,256] {scheduler_job.py:182} INFO - Started process (PID=2704) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:57,258] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:34:57,260] {logging_mixin.py:104} INFO - [2021-06-06 06:34:57,259] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:57,276] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:34:57,292] {logging_mixin.py:104} INFO - [2021-06-06 06:34:57,292] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:34:57,306] {logging_mixin.py:104} INFO - [2021-06-06 06:34:57,306] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:34:57,335] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.084 seconds
+[2021-06-06 06:35:28,177] {scheduler_job.py:182} INFO - Started process (PID=2762) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:28,179] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:35:28,179] {logging_mixin.py:104} INFO - [2021-06-06 06:35:28,179] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:28,196] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:28,212] {logging_mixin.py:104} INFO - [2021-06-06 06:35:28,212] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:35:28,222] {logging_mixin.py:104} INFO - [2021-06-06 06:35:28,222] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:35:28,243] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2021-06-06 06:35:59,781] {scheduler_job.py:182} INFO - Started process (PID=2820) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:59,783] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:35:59,783] {logging_mixin.py:104} INFO - [2021-06-06 06:35:59,783] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:59,800] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:35:59,817] {logging_mixin.py:104} INFO - [2021-06-06 06:35:59,817] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:35:59,827] {logging_mixin.py:104} INFO - [2021-06-06 06:35:59,827] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:35:59,848] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2021-06-06 06:36:32,270] {scheduler_job.py:182} INFO - Started process (PID=2880) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:36:32,271] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:36:32,272] {logging_mixin.py:104} INFO - [2021-06-06 06:36:32,272] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:36:32,288] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:36:32,307] {logging_mixin.py:104} INFO - [2021-06-06 06:36:32,307] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:36:32,321] {logging_mixin.py:104} INFO - [2021-06-06 06:36:32,321] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:36:32,354] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2021-06-06 06:37:04,416] {scheduler_job.py:182} INFO - Started process (PID=2938) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:04,418] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:37:04,419] {logging_mixin.py:104} INFO - [2021-06-06 06:37:04,419] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:04,439] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:04,454] {logging_mixin.py:104} INFO - [2021-06-06 06:37:04,453] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:37:04,462] {logging_mixin.py:104} INFO - [2021-06-06 06:37:04,462] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:37:04,486] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.072 seconds
+[2021-06-06 06:37:38,743] {scheduler_job.py:182} INFO - Started process (PID=2997) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:38,745] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:37:38,746] {logging_mixin.py:104} INFO - [2021-06-06 06:37:38,746] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:38,767] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:37:38,787] {logging_mixin.py:104} INFO - [2021-06-06 06:37:38,787] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:37:38,804] {logging_mixin.py:104} INFO - [2021-06-06 06:37:38,804] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:37:38,827] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.086 seconds
+[2021-06-06 06:38:10,956] {scheduler_job.py:182} INFO - Started process (PID=3055) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:10,958] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:38:10,959] {logging_mixin.py:104} INFO - [2021-06-06 06:38:10,959] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:10,982] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:11,004] {logging_mixin.py:104} INFO - [2021-06-06 06:38:11,004] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:38:11,022] {logging_mixin.py:104} INFO - [2021-06-06 06:38:11,022] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:38:11,053] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.101 seconds
+[2021-06-06 06:38:42,695] {scheduler_job.py:182} INFO - Started process (PID=3111) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:42,696] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:38:42,697] {logging_mixin.py:104} INFO - [2021-06-06 06:38:42,697] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:42,720] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:38:42,737] {logging_mixin.py:104} INFO - [2021-06-06 06:38:42,737] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:38:42,749] {logging_mixin.py:104} INFO - [2021-06-06 06:38:42,749] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:38:42,956] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.265 seconds
+[2021-06-06 06:39:15,100] {scheduler_job.py:182} INFO - Started process (PID=3168) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:15,103] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:39:15,106] {logging_mixin.py:104} INFO - [2021-06-06 06:39:15,106] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:15,133] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:15,163] {logging_mixin.py:104} INFO - [2021-06-06 06:39:15,163] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:39:15,182] {logging_mixin.py:104} INFO - [2021-06-06 06:39:15,182] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:39:15,220] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2021-06-06 06:39:47,860] {scheduler_job.py:182} INFO - Started process (PID=3224) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:47,862] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:39:47,862] {logging_mixin.py:104} INFO - [2021-06-06 06:39:47,862] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:47,893] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:39:47,930] {logging_mixin.py:104} INFO - [2021-06-06 06:39:47,929] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:39:47,947] {logging_mixin.py:104} INFO - [2021-06-06 06:39:47,946] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:39:47,972] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2021-06-06 06:40:22,334] {scheduler_job.py:182} INFO - Started process (PID=3279) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:22,337] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:40:22,338] {logging_mixin.py:104} INFO - [2021-06-06 06:40:22,338] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:22,357] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:22,373] {logging_mixin.py:104} INFO - [2021-06-06 06:40:22,373] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:40:22,385] {logging_mixin.py:104} INFO - [2021-06-06 06:40:22,385] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:40:22,411] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.081 seconds
+[2021-06-06 06:40:55,551] {scheduler_job.py:182} INFO - Started process (PID=3338) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:55,553] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:40:55,554] {logging_mixin.py:104} INFO - [2021-06-06 06:40:55,554] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:55,573] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:40:55,590] {logging_mixin.py:104} INFO - [2021-06-06 06:40:55,590] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:40:55,600] {logging_mixin.py:104} INFO - [2021-06-06 06:40:55,600] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:40:55,623] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.079 seconds
+[2021-06-06 06:41:29,377] {scheduler_job.py:182} INFO - Started process (PID=3397) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:41:29,379] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:41:29,380] {logging_mixin.py:104} INFO - [2021-06-06 06:41:29,379] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:41:29,398] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:41:29,416] {logging_mixin.py:104} INFO - [2021-06-06 06:41:29,416] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:41:29,426] {logging_mixin.py:104} INFO - [2021-06-06 06:41:29,426] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:41:29,449] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.074 seconds
+[2021-06-06 06:42:00,813] {scheduler_job.py:182} INFO - Started process (PID=3453) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:00,815] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:42:00,816] {logging_mixin.py:104} INFO - [2021-06-06 06:42:00,816] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:00,835] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:00,851] {logging_mixin.py:104} INFO - [2021-06-06 06:42:00,851] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:42:00,861] {logging_mixin.py:104} INFO - [2021-06-06 06:42:00,861] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:42:00,884] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.077 seconds
+[2021-06-06 06:42:33,869] {scheduler_job.py:182} INFO - Started process (PID=3512) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:33,872] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:42:33,874] {logging_mixin.py:104} INFO - [2021-06-06 06:42:33,873] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:33,893] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:42:33,910] {logging_mixin.py:104} INFO - [2021-06-06 06:42:33,910] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:42:33,920] {logging_mixin.py:104} INFO - [2021-06-06 06:42:33,920] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:42:33,946] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.082 seconds
+[2021-06-06 06:43:08,744] {scheduler_job.py:182} INFO - Started process (PID=3573) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:08,746] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:43:08,747] {logging_mixin.py:104} INFO - [2021-06-06 06:43:08,747] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:08,764] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:08,780] {logging_mixin.py:104} INFO - [2021-06-06 06:43:08,780] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:43:08,791] {logging_mixin.py:104} INFO - [2021-06-06 06:43:08,791] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:43:08,817] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.077 seconds
+[2021-06-06 06:43:40,441] {scheduler_job.py:182} INFO - Started process (PID=3631) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:40,443] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:43:40,444] {logging_mixin.py:104} INFO - [2021-06-06 06:43:40,444] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:40,462] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:43:40,481] {logging_mixin.py:104} INFO - [2021-06-06 06:43:40,480] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:43:40,493] {logging_mixin.py:104} INFO - [2021-06-06 06:43:40,493] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:43:40,515] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.078 seconds
+[2021-06-06 06:44:12,705] {scheduler_job.py:182} INFO - Started process (PID=3687) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:12,707] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:44:12,708] {logging_mixin.py:104} INFO - [2021-06-06 06:44:12,708] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:12,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:12,740] {logging_mixin.py:104} INFO - [2021-06-06 06:44:12,740] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:44:12,750] {logging_mixin.py:104} INFO - [2021-06-06 06:44:12,750] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:44:12,771] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2021-06-06 06:44:49,940] {scheduler_job.py:182} INFO - Started process (PID=3748) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:49,942] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:44:49,943] {logging_mixin.py:104} INFO - [2021-06-06 06:44:49,943] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:49,964] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:44:49,983] {logging_mixin.py:104} INFO - [2021-06-06 06:44:49,983] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:44:49,997] {logging_mixin.py:104} INFO - [2021-06-06 06:44:49,997] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:44:50,025] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2021-06-06 06:45:23,038] {scheduler_job.py:182} INFO - Started process (PID=3866) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:23,039] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:45:23,040] {logging_mixin.py:104} INFO - [2021-06-06 06:45:23,040] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:23,057] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:23,074] {logging_mixin.py:104} INFO - [2021-06-06 06:45:23,073] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:45:23,084] {logging_mixin.py:104} INFO - [2021-06-06 06:45:23,084] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:45:23,105] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.070 seconds
+[2021-06-06 06:45:56,510] {scheduler_job.py:182} INFO - Started process (PID=4106) to work on /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:56,511] {scheduler_job.py:633} INFO - Processing file /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2021-06-06 06:45:56,512] {logging_mixin.py:104} INFO - [2021-06-06 06:45:56,512] {dagbag.py:487} INFO - Filling up the DagBag from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:56,528] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2021-06-06 06:45:56,544] {logging_mixin.py:104} INFO - [2021-06-06 06:45:56,544] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-06-06 06:45:56,555] {logging_mixin.py:104} INFO - [2021-06-06 06:45:56,554] {dag.py:2305} INFO - Setting next_dagrun for example_complex to None
+[2021-06-06 06:45:56,573] {scheduler_job.py:190} INFO - Processing /media/PythonProjects/66.Spotify_ETL/venv/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
