@@ -1,0 +1,129 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "displayMode": "auto"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 15,
+        "w": 20,
+        "x": 0,
+        "y": 0
+      },
+      "id": 2,
+      "maxDataPoints": 1,
+      "options": {
+        "showHeader": true
+      },
+      "pluginVersion": "8.0.3",
+      "repeat": null,
+      "targets": [
+        {
+          "format": "table",
+          "group": [
+            {
+              "params": [
+                "Country"
+              ],
+              "type": "column"
+            }
+          ],
+          "metricColumn": "Country",
+          "rawQuery": true,
+          "rawSql": "SELECT Country, round(avg(Cases),2) as \"Cases\"\nFROM covid\nGROUP BY Country\nORDER BY Cases desc;",
+          "refId": "A",
+          "select": [
+            [
+              {
+                "params": [
+                  "Cases"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "avg"
+                ],
+                "type": "aggregate"
+              },
+              {
+                "params": [
+                  "Cases"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "covid",
+          "timeColumn": "Cases",
+          "timeColumnType": "float",
+          "where": []
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Title",
+      "transformations": [],
+      "transparent": true,
+      "type": "table"
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 30,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-2y",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Covid_Table",
+  "uid": "iPFtlpk7k",
+  "version": 2
+}
