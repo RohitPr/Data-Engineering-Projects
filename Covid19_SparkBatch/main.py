@@ -1,7 +1,6 @@
 from pyspark.sql import SparkSession
 import mysql.connector
 import pyspark.sql.functions as func
-from pyspark.sql.functions import col
 import pandas as pd
 
 
