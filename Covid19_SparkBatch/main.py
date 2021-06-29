@@ -47,6 +47,6 @@ pdf = pd.read_sql(query, con=conn)
 conn.close()
 
 # Convert Pandas dataframe to spark DataFrame
-df_2 = spark.createDataFrame(pdf)
+df = spark.createDataFrame(pdf)
 
-df_2.show()
+df.show()
