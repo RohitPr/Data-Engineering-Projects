@@ -17,9 +17,6 @@ spark = SparkSession.builder.appName("PopularMovies").getOrCreate()
 
 nameDict = spark.sparkContext.broadcast(loadMovieNames())
 
-
-spark = SparkSession.builder.appName("PopularMovies").getOrCreate()
-
 moviesDF = spark.read.option("header", "true").option("inferSchema", "true").csv(
     "/media/rohit/My Files/Study/DE Projects/Movie_CountSort_SparkSQL/data/ratings.csv")
 
