@@ -50,3 +50,5 @@ conn.close()
 df = spark.createDataFrame(pdf)
 
 df.show()
+
+spark.stop()
