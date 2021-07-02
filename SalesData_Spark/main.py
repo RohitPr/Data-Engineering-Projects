@@ -28,3 +28,5 @@ aggregated_data = sales_done_join.where(col("deal_stage") == 'Won').groupBy("man
 
 final_data = aggregated_data.select(col("manager").alias(
     "Manager"), "Grand Total Sales").orderBy("Grand Total Sales", ascending=False).show()
+
+spark.stop()
