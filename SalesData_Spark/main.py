@@ -20,6 +20,8 @@ sales_pipeline = spark.read.option("header", "true").option("inferSchema", "true
 sales_teams = spark.read.option("header", "true").option("inferSchema", "true").csv(
     'data/sales_teams.csv')
 
+# Display 'Manager' and 'Grand Total Sales', for sales done by the sales agents reporting these managers
+
 sales_done_join = sales_teams.join(sales_pipeline, on="sales_agent", how="inner").join(
     products, on="product", how="inner")
 
