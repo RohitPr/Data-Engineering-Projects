@@ -5,12 +5,6 @@ from pyspark.sql.functions import *
 
 spark = SparkSession.builder.appName("Sales").getOrCreate()
 
-accounts = spark.read.option("header", "true").option("inferSchema", "true").csv(
-    'data/accounts.csv')
-
-clicks = spark.read.option("header", "true").option("inferSchema", "true").csv(
-    'data/clicks.csv')
-
 products = spark.read.option("header", "true").option("inferSchema", "true").csv(
     'data/products.csv')
 
