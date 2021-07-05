@@ -22,7 +22,7 @@ confirmed = data.groupBy("Country").agg(func.round(
 # confirmed = data.groupBy("Country").agg(func.round(
 #     func.avg("Confirmed"), 2).alias("Most Confirmed Cases")).orderBy("Most Confirmed Cases", ascending=False).collect()
 
-# Prints the
+# Prints the data in the Dict
 # for a in confirmed:
 #     print(a['Country'] + "-" + str(a['Most Confirmed Cases']))
 
