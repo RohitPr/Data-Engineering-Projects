@@ -87,7 +87,7 @@ def database_create(movie_df):
 
     # Saving the Pandas DF to our SQL Database
 
-    movie_df.to_sql("MovieData", db_engine, index=False, if_exists='append')
+    movie_df.to_sql("MovieData", db_engine, index=False)
 
     # Closing the Connection
 
