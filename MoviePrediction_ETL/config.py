@@ -8,6 +8,7 @@ from sqlalchemy import engine
 
 
 def movie_extract():
+
     base_url = "https://boxofficecollection.in/"
     tail_url = "-box-office-collection-day-wise"
 
@@ -19,6 +20,8 @@ def movie_extract():
     box_office_collection = []
     date_data = []
 
+    # Requesting Box Office page with the requested movie names
+
     for key in movie_details:
         movie_input = key.replace(" ", "-")
         start_date = datetime.strptime(movie_details[key], "%Y-%m-%d").date()
@@ -28,8 +31,12 @@ def movie_extract():
         soup = BeautifulSoup(details_page, "html.parser")
         data = soup.find("tbody", {"class": "row-hover"}).getText()
 
+    # Splitting the Data to collect the Day and Collection for the specific Date
+
         raw_data = data.split("Cr")
         raw_data.pop()
+
+    # Appending the extracted data to different list objects
 
         for row in raw_data:
             split_data = row.split("₹")
@@ -42,5 +49,40 @@ def movie_extract():
             date_data.append(
                 (start_date + timedelta(days=date_value)).strftime("%Y-%m-%d"))
 
+    # Creating a Pandas DF using the Lists created above
 
-def 
+    movie_dict = {"Movie_Name": movie_name,
+                  "Days_from_Release": day_from_release,
+                  "Date": date_data,
+                  "Box_Office_Collection": box_office_collection
+                  }
+
+    movie_df = pd.DataFrame(movie_dict, columns=[
+                            "Movie_Name", "Days_from_Release", "Date", "Box_Office_Collection"])
+
+    # Creating SQL Connect object to connect and execute the Query
+
+    connection = sqlite3.connect('MovieData.db')
+    cursor = connection.cursor()
+
+    sql_query = """
+        CREATE TABLE IF NOT EXISTS MovieData(
+            Movie_Name VARCHAR(200),
+            Days_from_Release INT,
+            Date DATE,
+            Box_Office_Collection INT,
+        )
+    """
+
+    cursor.execute(sql_query)
+    print("SQL DB Created")
+
+    # Saving the Data to our SQL Database
+
+    try:
+        movie_df.to_sql("MovieData", index=False)
+    except:
+        print("Data already exists in the Database")
+
+    connection.close()
+    print("Connection Closed")
