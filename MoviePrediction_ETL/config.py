@@ -60,8 +60,14 @@ def movie_extract():
     movie_df = pd.DataFrame(movie_dict, columns=[
                             "Movie_Name", "Days_from_Release", "Date", "Box_Office_Collection"])
 
-    # Creating SQL Connect object to connect and execute the Query
+    database_create(movie_df=movie_df)
 
+
+def database_create(movie_df):
+
+    # Creating SQL Connect object to connect and execute the Query
+    database_location = "sqlite:///MovieData.db"
+    db_engine = sqlalchemy.create_engine(database_location)
     connection = sqlite3.connect('MovieData.db')
     cursor = connection.cursor()
 
@@ -69,20 +75,24 @@ def movie_extract():
         CREATE TABLE IF NOT EXISTS MovieData(
             Movie_Name VARCHAR(200),
             Days_from_Release INT,
-            Date DATE,
+            Date VARCHAR(200),
             Box_Office_Collection INT,
+            CONSTRAINT primary_key_constraint PRIMARY KEY (Movie_Name,Date)
+
         )
     """
 
     cursor.execute(sql_query)
-    print("SQL DB Created")
+    print("SQL Table Created")
 
-    # Saving the Data to our SQL Database
+    # Saving the Pandas DF to our SQL Database
 
-    try:
-        movie_df.to_sql("MovieData", index=False)
-    except:
-        print("Data already exists in the Database")
+    movie_df.to_sql("MovieData", db_engine, index=False, if_exists='append')
+
+    # Closing the Connection
 
     connection.close()
     print("Connection Closed")
+
+
+movie_extract()
