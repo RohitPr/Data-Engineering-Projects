@@ -113,7 +113,7 @@ def run_spotify_etl():
 
     try:
         songs_df.to_sql("my_spotify_songs", db_engine,
-                        index=False, if_exists=append)
+                        index=False, if_exists='append')
     except:
         print("Data already exists in the Database")
 
