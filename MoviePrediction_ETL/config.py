@@ -25,7 +25,7 @@ def movie_extract():
     for key in movie_details:
         movie_input = key.replace(" ", "-")
         start_date = datetime.strptime(movie_details[key], "%Y-%m-%d").date()
-
+        print(f"Extracting Details for {key}")
         response = requests.get(base_url+movie_input+tail_url)
         details_page = response.text
         soup = BeautifulSoup(details_page, "html.parser")
@@ -75,7 +75,7 @@ def database_create(movie_df):
         CREATE TABLE IF NOT EXISTS MovieData(
             Movie_Name VARCHAR(200),
             Days_from_Release INT,
-            Date VARCHAR(200),
+            Date DATE,
             Box_Office_Collection INT,
             CONSTRAINT primary_key_constraint PRIMARY KEY (Movie_Name,Date)
 
@@ -88,6 +88,7 @@ def database_create(movie_df):
     # Saving the Pandas DF to our SQL Database
 
     movie_df.to_sql("MovieData", db_engine, index=False, if_exists='append')
+    print("Appending Data to SQL Table")
 
     # Closing the Connection
 
